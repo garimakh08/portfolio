@@ -1,0 +1,90 @@
+.topnav {
+    position: fixed;
+    width: 95%;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    background-color: #ffa071;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.topnav a {
+    color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    font-style: Comic;
+  }
+ 
+  .topnav a:hover {
+    background-color: #FFB367;
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav .active{
+    background-color: whitesmoke;
+    color: black;
+  }
+
+
+  #home {
+    height: 500px;
+    padding: 10%;
+  }
+
+  #my_hobbies {
+    height: 500px;
+    background-color: #ffb480;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #skills {
+    height: 500px;
+    background-color: #FFB367;
+    padding: 10%;
+    text-align: center;
+  }
+
+  .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ffa071;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FFB367;
+    text-decoration: none;
+  }
+  .bttn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ffa071;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .bttn:hover {
+    background: #FFB367;
+    text-decoration: none;
+  }
